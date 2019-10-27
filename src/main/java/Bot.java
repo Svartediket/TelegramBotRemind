@@ -1,4 +1,3 @@
-
 import org.telegram.abilitybots.api.db.MapDBContext;
 import org.telegram.telegrambots.ApiContextInitializer;
 import org.telegram.telegrambots.bots.DefaultBotOptions;
@@ -14,11 +13,11 @@ import java.net.URL;
 import static org.telegram.abilitybots.api.db.MapDBContext.onlineInstance;
 
 public class Bot {
-   // private static String BOT_NAME = "teater"; //"MyTestBot";
-   // private static String BOT_TOKEN = "854110210:AAGZCyWzVq2ge2SnXcTE75I0R5rlhqoLqR4"; //"881713712:AAErddrey3kouEag5Qxyds7e6Fd-5Q-9kh4";
+    // private static String BOT_NAME = "teater"; //"MyTestBot";
+    // private static String BOT_TOKEN = "854110210:AAGZCyWzVq2ge2SnXcTE75I0R5rlhqoLqR4"; //"881713712:AAErddrey3kouEag5Qxyds7e6Fd-5Q-9kh4";
 
-    private static String PROXY_HOST = "197.216.2.14";
-    private static Integer PROXY_PORT = 8080;
+    private static String PROXY_HOST = "200.89.178.88";
+    private static Integer PROXY_PORT = 80;
 
     public static void main(String[] args){
         try {
